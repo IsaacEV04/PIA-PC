@@ -1,7 +1,7 @@
 import requests
 
-# Nombre: Jesús Israel Bolaños Uvalle
-# Matrícula: 2005587
+# Nombre: Isaac Emilio Esparza Vázquez
+# Matrícula: 2012872
 if __name__ == "__main__":
     url="https://pokeapi.co/api/v2/pokemon-form/"
 
