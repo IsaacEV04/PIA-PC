@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script welcome.sh
-# <24/09/2022> - < Jesus Israel Bolaños Uvalle >
+# <06/03/2023> - < Isaac Emilio Esparza Vázquez >
 #
 echo "Hola  ${LOGNAME}"
 echo "Hoy es $(date)"
