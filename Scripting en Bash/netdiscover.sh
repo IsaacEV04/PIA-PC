@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script netdiscover.sh.sh
-# <25/09/2022> - < Jesus Israel Bolaños Uvalle >
+# <06/03/2023> - < Isaac Emilio Esparza Vázquez >
 
 # Escaner de red bàsico en BASH
 
