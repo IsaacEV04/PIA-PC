@@ -7,7 +7,7 @@
 
 **Matrícula:** 2012872 
 ---
-<sub>Durante clase vimos distintos temas los cuales son:.</sub>
+<sub>Durante clase vimos distintos temas los cuales son:</sub>
 		
 - Manejo de APIs		
 - Scripting en PowerShell	
