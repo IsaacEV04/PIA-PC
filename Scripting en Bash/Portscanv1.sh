@@ -1,5 +1,7 @@
 #!/bin/bash
-#
+# Nombre: Isaac Emilio Esparza Vázquez
+# Matricula: 2012872
+
 # Escaner de puertos usando archivo especial en /dev
 #
 # Definicion de variables
