@@ -1,5 +1,5 @@
 # Script < number.sh >
-# <25/09/2022> - < Jesus Israel Bolaños Uvalle >
+# <06/03/2023> - < Isaac Emilio Esparza Vázquez >
 #
 # Leer 3 numeros asignados a 3 variables
 read -p "Proporciona un numero para la variable 1: " n1
