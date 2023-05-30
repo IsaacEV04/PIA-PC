@@ -1,7 +1,5 @@
-#DATOS
-#Nombre: Jesús Israel Bolaños Uvalle
-#Matrícula: 2005587
-
+#Nombre: Isaac Emilio Esparza Vázquez
+#Matrícula: 2012872
 
 # Determinando el gateway
 $subred = (Get-NetRoute -DestinationPrefix 0.0.0.0/0).NextHop
