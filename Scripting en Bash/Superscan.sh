@@ -1,8 +1,8 @@
 #!/bin/bash
-# Nombre: Jesus Israel Bolaños Uvalle
-# Matricula: 2005587
+# Nombre: Isaac Emilio Esparza Vázquez
+# Matricula: 2012872
+
 # Ejemplo de Menu en BASH
-#
 date
     echo "---------------------------"
     echo "   Menu Principal"
