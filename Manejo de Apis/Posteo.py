@@ -1,12 +1,12 @@
+# Nombre: Isaac Emilio Esparza Vázquez
+# Matrícula: 2012872
 import requests
 import json
 
-#Nombre: Jesus Israel Bolaños Uvalle
-#Matricula: 2005587
 
 if __name__ == "__main__":
     url ="https://httpbin.org/post"
-    argumentos = {"nombre": "Israel", "matricula": "2005587", "curso":"Laboratorio de Programacion para Ciberseguridad"}
+    argumentos = {"nombre": "Isaac", "matricula": "2012872", "curso":"Programacion para Ciberseguridad"}
 
     response = requests.post(url, params=argumentos)
 
