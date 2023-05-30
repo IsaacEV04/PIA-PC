@@ -1,24 +1,10 @@
-# PIA-PC
----
-<sub>Este repositorio contiene algunos scripts realizados durante Semestre, realizados en la materia de Laboratorio para Programación de Ciberseguridad.</sub>
----
-# Datos
-**Nombre:** Isaac Emilio Esparza Vázquez 
 
-**Matrícula:** 2012872 
----
-<sub>Durante clase vimos distintos temas los cuales son:</sub>
-		
-- Manejo de APIs		
-- Scripting en PowerShell	
-- Scripting en Bash
-- Encoding & Decoding
-- Webscraping y análisis de metadata
-- Nmap
-- Comunicación FTP
-- Escanér de puertos
-- Envío de correos
-- Análisis de registros de Windows
-- Creando ejecutables
-- Automatización de Tareas
-
+# Encoding & Decoding
+## Objetivo
+- Emplear diferentes tipos de codificación y encriptación para mensajes e imagenes, como son base64 y el moódulo criptography respectivamente.
+### Encode_imgur.py
+- Este script realiza la descarga de imaganes para luego realizar su codifcación con base64.
+### Cypher.py
+- Realiza la encriptación y desencriptación de un mensaje con el modulo cryptography.
+### Codipo.ps1
+- Realiza la codificación/decodificación en Base64 sobre un archivo.  
