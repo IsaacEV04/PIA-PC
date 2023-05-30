@@ -1,7 +1,8 @@
+# Nombre: Isaac Emilio Esparza Vázquez
+# Matrícula: 2012872
 import requests
 
-# Nombre: Jesús Israel Bolaños Uvalle
-# Matrícula: 2005587
+
 def get_pokemons (url="https://pokeapi.co/api/v2/pokemon-form/" , offset= 0):
     args = {"offset": offset} if offset else{}
 
