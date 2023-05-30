@@ -1,57 +1,61 @@
-#Jesús Israel Bolaños Uvalle
-#2005587
+#Nombre: Isaac Emilio Esparza Vazquez
+#Matricula: 2012872
 
-import smtplib
-import ssl
+import smtplib, ssl
+import getpass
 from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+sender_email = input("Correo que envia:")
+receiver_email = input("Correo que recibe:")
+contraseña= getpass.getpass("Contraseña del que envia: ")
 
-#Le asignamos el asunto, de quien y para quien va dirigido el correo
-mensaje = MIMEMultipart('alternative')
-mensaje['Subject'] = 'Prueba de envio (script Python) - 2005587'
-mensaje['From'] = 'correo'
-mensaje['To'] = 'destinatario'
+message = MIMEMultipart("alternative")
+message["Subject"] = "Prueba de envio (script Python) - 2012872"
+message["From"] = sender_email
+message["To"] = receiver_email
 
-html = f"""
+#Escribimos el mensaje en formato HTML
+html = """\
 <html>
-<body>
-    <b>Practica 12</b><br>
-    Ejercicio de la practica 12 para envio de correos.<br>
-    <b>Alumno:</b> Jesús Israel Bolaños Uvalle<br>
-    <b>Matrícula:</b> 2005587<br>
-<body>
+  <body>
+    
+    <p><strong> <h2> Practica 12 </h2> </strong> <br>
+       Ejercicio de la practica 12 para envío de correos<br> 
+       <strong> Alumno: </strong> Isaac Emilio Esparza Vazquez <br>
+       <strong> Matricula: </strong>  2012872
+    </p>
+  </body>
 </html>
 """
-#Agregamos el html al contenido del mensaje
+#Anexamos al correo la parte del HTML
 parte_html = MIMEText(html, 'html')
-mensaje.attach(parte_html)
+message.attach(parte_html)
 
-#Abrimos la imagen, la leeamos para luego adjuntarlo al mensaej final              
-imagen= "fcfm_cool.png"
+#Se agregará la imagen de fcfm_cool.png
+archivo = 'fcfm_cool.png'
 
-with open(imagen, 'rb') as adjunto:
-    contenido_adjunto =MIMEBase("application", "octet-stream")
+#Abrimos el archivo
+with open(archivo, 'rb') as adjunto:
+    contenido_adjunto = MIMEBase('application','octet-stream')
     contenido_adjunto.set_payload(adjunto.read())
-
 encoders.encode_base64(contenido_adjunto)
-
 contenido_adjunto.add_header(
     "Content-Disposition",
-    f"attachment; filename= {imagen}",
+    f"attachment; filename= {archivo}"
 )
 
+#Se agrega todo lo anterior al mensaje a enviar
+message.attach(contenido_adjunto)
+mensaje_final = message.as_string()
 
-mensaje.attach(contenido_adjunto)
-mensaje_final = mensaje.as_string()
-
-context = ssl.create_default_context()
-with smtplib.SMTP('smtp.gmail.com', 587) as conn:
-    conn.starttls(context=context)
-    conn.login('correo', 'contraseña')
-    print("Sesión iniciada")
-    conn.sendmail('correo', 'destinatario', mensaje_final)
-    print("Mensaje enviado")
-
+#Establecemos conexión con smtp
+with smtplib.SMTP("smtp.gmail.com", 587) as server:
+    server.ehlo()
+    server.starttls()
+    server.login(sender_email, contraseña)
+    server.sendmail(
+        sender_email, receiver_email, message.as_string()
+    )
