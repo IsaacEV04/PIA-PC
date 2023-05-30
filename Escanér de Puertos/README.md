@@ -7,8 +7,10 @@
 - Se realiza la comprobación de estado a puertos espeficicos en ips proporcionadas.
 ### Scan_portv3.py
 - Escaneo de puertos con el modulo threading para tener multiplos hilos. 
-### Nmap.py
- Script que contiene un menú en el cual se puede realizar:
+### scan_portv 4.py
+- A través de métodos de Python ejecuta comandos nmap.
+### Scanmenu.py
+ Contiene un menú en el cual se puede realizar:
  - Escaneo UDP.
  - Escaneo completo. 
  - Detección de sistema operativo. 
