@@ -19,7 +19,7 @@ En este Github se encuentran todas las actividades que se realizaron durante cla
 
 - [Webscraping:]https://github.com/IsaacEV04/PIA-PC/tree/main/Webscraping
 
-- [Escáner de Puertos:]https://github.com/IsaacEV04/PIA-PC/tree/main/Esc%C3%A1ner%20de%20Puertos
+- [Escáner de Puertos:]https://github.com/IsaacEV04/PIA-PC/tree/main/Escan%C3%A9r%20de%20Puertos
 
 - [Envió de Correos:]https://github.com/IsaacEV04/PIA-PC/tree/main/Envi%C3%B3%20de%20Correos
 
