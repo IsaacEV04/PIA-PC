@@ -2,6 +2,7 @@
 ---
 <sub>Este repositorio contiene algunos scripts realizados durante Semestre, realizados en la materia de Laboratorio para Programación de Ciberseguridad.</sub>
 ---
-Datos
----
-Isaac Emilio Esparza Vázquez  Matricula: 2012872
+# Datos del autor
+**Nombre:** Isaac Emilio Esparza Vázquez 
+
+**Matrícula:** 2012872 
