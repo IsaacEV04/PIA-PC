@@ -7,6 +7,7 @@ En este Github se encuentran todas las actividades que se realizaron durante cla
 ### Datos
 ---
 ***Nombre:*** Isaac Emilio Esparza Vázquez
+
 ***Matricula:*** 2012872
 
 # Actividades
