@@ -17,7 +17,7 @@ En este Github se encuentran todas las actividades que se realizaron durante cla
 
 - [Scripting en Bash]https://github.com/IsaacEV04/PIA-PC/tree/main/Scripting%20en%20Bash
 
-- [Webscraping:]
+- [Webscraping:]https://github.com/IsaacEV04/PIA-PC/tree/main/Webscraping
 
 - [Escáner de Puertos:]
 
