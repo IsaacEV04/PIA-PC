@@ -9,14 +9,14 @@ El objetivo de los scripts es la realización multiples tareas en bash, como:
 - combinación de comandos.
 
 ### Welcome.sh
-- El objetivo de este script es darnos la bienvenida mencionando el nombre de nuestro usuario y dandonos la fecha actual, asi como mostrandonos los usuarios conectados y sus procesos.
+- El objetivo de este script es darle la bienvenida con el nombre del usuario y proporcionando la fecha actual, mostrando los usuarios que estan conectados y sus dichos procesos.
 ### Bro.sh
-- Este script nos pedirá como dato de entrada nuestro nombre para luego imprimir un saludo.
+- Este script nos pide como dato de entrada el nombre, para despues lo imprime con un saludo.
 ### Number.sh
-- Este script nos pide como datos entrada proporcionarle 3 números para luego imprimir los números proporiconados.
+- Este script nos pide como dato de entrada darle 3 números, para imprimir los mismos números.
 ### Netdiscover.sh 
-- Este script nos ayudará para descubrir los equipos conectados a la red interna.
+- Este script ayudará a descubrir los equipos que estan conectados a la red interna.
 ### Portscanv1.sh 
-- Un script sencillo para el escaneo de puertos. 
+- Un script para el escaneo de puertos. 
 ### Superscan.sh 
-- Menú en el cual se tendrá como opciones la ejecución de todos los scripts mencionados anteriormente.
+- Script con un menú para hacer todos los demas scripts mencionados.
