@@ -8,8 +8,7 @@
 **Matrícula:** 2012872 
 ---
 <sub>Durante clase vimos distintos temas los cuales son:.</sub>
-
-- Preparación de ambientes		
+		
 - Manejo de APIs		
 - Git
 - GitHub
