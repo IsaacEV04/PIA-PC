@@ -10,8 +10,6 @@
 <sub>Durante clase vimos distintos temas los cuales son:.</sub>
 		
 - Manejo de APIs		
-- Git
-- GitHub
 - Scripting en PowerShell	
 - Scripting en Bash
 - Encoding & Decoding
